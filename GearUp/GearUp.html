@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!---fcbacb--->
+<html>
+
+<TITLE>www.gearup.com</TITLE>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="transition.js" defer></script>
+<script src="cart.js" defer></script>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="gear.css">
+</head>
+
+<body>
+  
+  <div id="ani">
+   
+    <h1>Gearup<h1>
+    <h5 style="font-size:25px;text-align:center;color:#eff300;">The Ultimate One Stop Bicycle Shopping</h5>
+    </div>
+  </div>
+  <div class="topnav">
+    <a href="gearup.html">Home</a>
+    <a href="Catalog.html">Catalog</a>
+     <a href="Contact us.html">Contact us</a>
+    <a href="About.html">About</a>
+    <a href="Review.html">Review</a>
+    <a href="Help.html">Help</a>
+    <a href="login.html" class="left" >Login</a>
+  
+  </div>
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h1>Our Customers' Top Picks!</h1><br>
+      <div class="rows">
+        
+        <div class="flex-container">
+        
+          <div class="flex-item-left" ><img src="images/bmx.jpg" width="250" height="250"> <div class="name1">BMX cycle</div><h1>Rs.15000</h1><button class="button"
+              type="button" button onclick="addItemToCart(1);">Order</button>&nbsp;&nbsp; <button class="button1" type="button" button onclick="myFunction1()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button>
+              
+          </div>
+          <div class="flex-item-center"><img src="images/hybrid bicycle.jpg" width="250" height="250"><div class="name1">Hybrid bicycle</div><h1>Rs.9000</h1><button class="button"
+           type="button" onclick="addItemToCart(2);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction2()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/mtb bicycle.jpg" width="250" height="250"><div class="name1">MTB bicycle</div><h1>Rs.14500</h1><button class="button"
+              type="button" onclick="addItemToCart(3);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction3()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item-left"><img src="images/santa cruz v10 carbon bicycle.jpg" width="250" height="250"><div class="name1">santa cruz v10 carbon BMX bicycle</div><h1>Rs.14500</h1><button class="button"
+              type="button" onclick="addItemToCart(4);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction4()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-center"><img src="images/cardiac single speed  hybrid bicycle.jpeg" width="250" height="250"><div class="name1">cardiac single speed Hybrid bicycle</div><h1>Rs.8990</h1><button class="button"
+              type="button" onclick="addItemToCart(5);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction5()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"> <img src="images/blue mtb.jpg" width="250" height="250"><div class="name1">Blue MTB</div><h1>Rs.15000</h1><button class="button"
+              type="button" onclick="addItemToCart(6);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction6()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item-left"><img src="images/jaugar bicycle.jpg" width="250" height="250"><div class="name1">Jaugar MTB bicycle</div><h1>Rs.10990</h1><button class="button"
+              type="button" onclick="addItemToCart(7);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction7()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-center"><img src="images/hotrock mtb bicycle.jpg" width="250" height="250"><div class="name1">Hotrock MTB bicycle</div><h1>Rs.1500</h1><button class="button"
+              type="button" onclick="addItemToCart(8);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction8()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/vector mtb bicycle.jpg" width="250" height="250"><div class="name1">Vector MTB bicycle</div><h1>Rs.10000</h1><button class="button"
+              type="button" onclick="addItemToCart(9);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction9()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item-left"><img src="images/hybrid2 bicycle.jpeg" width="250" height="250"><div class="name1">Hybrid2 bicycle</div><h1>Rs.14500</h1><button class="button"
+              type="button" onclick="addItemToCart(10);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction10()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-center"><img src="images/women hybrid bicycle.jpg" width="250" height="250"><div class="name1">Women Hybrid bicycle</div><h1>Rs.8990</h1><button class="button"
+              type="button" onclick="addItemToCart(11);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction11()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/bravo bicycle.jpg" width="250" height="250"><div class="name1">Bravo Hybrid bicycle</div><h1>Rs.8990</h1><button class="button"
+              type="button" onclick="addItemToCart(12);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction12()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+      </div>
+      <h1>Our New Arrivals</h1><br>
+      <div class="rows">
+        
+        <div class="flex-container">
+        
+          <div class="flex-item-left" ><img src="images/New hybrid.png" width="250" height="250"> <div class="name1">New Hybrid </div><h1>Rs.10000</h1><button class="button"
+              type="button" button onclick="addItemToCart(13);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction13()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button>
+             
+          </div>
+          <div class="flex-item-center"><img src="images/mtb kids spcl.jpg" width="250" height="250"><div class="name1">MTB Kids Special</div><h1>Rs.9000</h1><button class="button"
+              type="button" onclick="addItemToCart(14);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction14()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/bmx brand.jpg" width="250" height="250"><div class="name1">BMX Ultra</div><h1>Rs.9000</h1><button class="button"
+              type="button" onclick="addItemToCart(15);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction15()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+        <div class="flex-container">
+         <div class="flex-item-left" ><img src="images/herohonda.png" width="250" height="250"> <div class="name1">Cycle</div><h1>Rs.8000</h1><button class="button"
+              type="button" button onclick="addItemToCart(16);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction16()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button>
+             
+          </div>
+          <div class="flex-item-center"><img src="images/mtb kids.jpg" width="250" height="250"><div class="name1">MTB for Kids</div><h1>Rs.10000</h1><button class="button"
+              type="button" onclick="addItemToCart(17);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction17()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/hybrid xp.jpg" width="250" height="250"><div class="name1">Hybrid XP</div><h1>Rs.8000</h1><button class="button"
+              type="button" onclick="addItemToCart(18);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction18()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+         </div>
+        </div>
+
+
+        <h1>Our Accessories</h1><br>
+      <div class="rows">
+        
+        <div class="flex-container">
+        
+          <div class="flex-item-left" ><img src="images/Helmet.jpg" width="250" height="250"> <div class="name1">Helmet</div><h1>Rs.2000</h1><button class="button"
+              type="button" button onclick="addItemToCart(19);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction19()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button>
+             
+          </div>
+          <div class="flex-item-center"><img src="images/bottle holder.jpg" width="250" height="250"><div class="name1">Bottle Holder</div><h1>Rs.2000</h1><button class="button"
+              type="button" onclick="addItemToCart(20);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction20()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/saddle bag.jpg" width="250" height="250"><div class="name1">Saddle Bag</div><h1>Rs.2500</h1><button class="button"
+              type="button" onclick="addItemToCart(21);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction21()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+        </div>
+        <div class="flex-container">
+         <div class="flex-item-left" ><img src="images/mask.jpg" width="250" height="250"> <div class="name1">Mask</div><h1>Rs.2500</h1><button class="button"
+              type="button" button onclick="addItemToCart(22);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction22()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button>
+             
+          </div>
+          <div class="flex-item-center"><img src="images/bottle.jpg" width="250" height="250"><div class="name1">Bottle</div><h1>Rs.2000</h1><button class="button"
+              type="button" onclick="addItemToCart(23);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction23()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+          <div class="flex-item-right"><img src="images/bike lock.jpg" width="250" height="250"><div class="name1">Bike Lock</div><h1>Rs.2500</h1><button class="button"
+              type="button" onclick="addItemToCart(24);">Order</button>&nbsp;&nbsp;<button class="button1" type="button" button onclick="myFunction24()";style= "font-size:48px;color:red"> <i class="fa fa-heart"></i></button></div>
+         </div>
+        </div>
+
+
+    </div>
+    <h2>Cart</h2>
+    <div class="container">
+      <div class="row">
+       <div class="cart">
+         <table class="table" style="text-align: left;">
+           <thead>
+             <tr>
+                <th> #</th>
+                <th> item </th>
+                <th> Qty </th>
+                <th> Rate </th>
+                <th> Price </th>
+             </tr>
+            </thead>
+            <tbody id="carttable">
+
+            </tbody>
+            <tfoot id="carttotal">
+              <tr>
+                <th colspan="4"> Total</th>
+                <th><span id="totalamt">0.00</span></th>
+              </tr>
+            </tfoot>
+         </table>
+       </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+       <div class="wishlist">
+         
+        <p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<p id="demo11"></p>
+<p id="demo12"></p>
+<p id="demo13"></p>
+<p id="demo14"></p>
+<p id="demo15"></p>
+<p id="demo16"></p>
+<p id="demo17"></p>
+<p id="demo18"></p>
+<p id="demo19"></p>
+<p id="demo20"></p>
+<p id="demo21"></p>
+<p id="demo22"></p>
+<p id="demo23"></p>
+<p id="demo24"></p>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <!-- Gallery Grid -->
+    <div class="row">
+      <div class="column MTB">
+        <div class="content">
+          <img src="images/jaugar bicycle.jpg" height="195px"  style="width:100%"><button class="button"
+          type="button" onclick="addItemToCart(7);">Order</button>
+          <h4>Jaugar Bicycle</h4>
+         
+        </div>
+      </div>
+      <div class="column MTB">
+        <div class="content">
+        <img src="images/vector mtb bicycle.jpg"height="195px"style="width:100%"><button class="button"
+        type="button" onclick="addItemToCart(9);">Order</button>
+          <h4>Vector Bicycle</h4>
+         
+        </div>
+      </div>
+      <div class="column MTB">
+        <div class="content">
+        <img src="images/hotrock mtb bicycle.jpg" height="195px"style="width:100%"><button class="button"
+        type="button" onclick="addItemToCart(8);">Order</button>
+          <h4>Hot Rock Cycle</h4>
+         
+        </div>
+      </div>
+      
+      <div class="column hybrid">
+        <div class="content">
+          <img src="images/hybrid2 bicycle.jpeg" height="195px"style="width:100%"><button class="button"
+          type="button" onclick="addItemToCart(10);">Order</button>
+          <h4>Retro</h4>
+         
+        </div>
+      </div>
+      <div class="column hybrid">
+        <div class="content">
+        <img src="images/women hybrid bicycle.jpg"height="195px"style="width:100%"><button class="button"
+        type="button" onclick="addItemToCart(11);">Order</button>
+          <h4>Hybrid</h4>
+          
+        </div>
+      </div>
+      <div class="column hybrid">
+        <div class="content">
+        <img src="images/bravo bicycle.jpg"height="195px"style="width:100%"><button class="button"
+        type="button" onclick="addItemToCart(12);">Order</button>
+          <h4>Classic</h4>
+          
+        </div>
+      </div>
+    
+      <div class="column BMX">
+        <div class="content">
+          <img src="images/bmx.jpg"height="195px" style="width:100%"><button class="button"type="button" button onclick="addItemToCart(1);">Order</button>
+          <h4>Original</h4>
+         
+        </div>
+      </div>
+      <div class="column BMX">
+        <div class="content">
+        <img src="images/herohonda.png"height="195px"style="width:100%"><button class="button"
+        type="button" button onclick="addItemToCart(16);">Order</button>
+          <h4>  BMX Hero</h4>
+         
+        </div>
+      </div>
+      <div class="column BMX">
+        <div class="content">
+        <img src="images/jaugar bicycle.jpg"height="195px"style="width:100%"><button class="button"
+        type="button" onclick="addItemToCart(7);">Order</button>
+        <h4>BMX Ultra</h4>
+         
+         
+        </div>
+      </div>
+    <!-- END GRID -->
+    </div>
+    </div>
+    
+   
+    
+    <h3>Feedback Form</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="india">India</option>
+          <option value="other">Other</option>
+          
+        </select>
+    
+        <label for="subject">Review</label>
+        <textarea id="subject" name="subject" placeholder="Write something about your experience.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+     
+      </div>
+   
+  </div>
+
+
+
+
+
+
+  <div class="leftcolumn">
+
+    <div class="card">
+      <div class="mydiv">
+        <h2>
+          <center>Welcome!</center>
+        </h2>
+      </div>
+      <h2>Greetings of the day!</h2>
+      <p style="font-size: large;"> <b>Welcome to The One Stop Ultimate for The Best Bicycle Sports Shopping. We have all that you need and more than just your needs!!!</b>,<br>
+        <h4><b><i>You can view your ordered items in the cart below*</i></b></h4>
+        <h4><b><i>You can view your wishlist in the cart below*</i></b></h4>
+    </div>
+    <div class="card">
+
+      <h3>Catch Us On:</h3>
+
+
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+      
+    </div>
+
+    <div class="card">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="poster1.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="Poster2.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="poster3.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="poster4.jpg" style="width:100%">
+
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="poster5.jpg" style="width:100%">
+
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="poster6.jpg" style="width:100%">
+
+           
+
+           </div>
+       </div>
+     <br>
+
+    <div style="text-align:center">
+
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+   </div><br><br>
+   <h2>Newsletter</h2>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Receive daily updates on offers and discounts.</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+   </div>
+ </div> 
+</div>
+    
+  </body>
+
+</html>
+    
